@@ -1,7 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  font-size: 16px;
+  font-weight: 400;
   background-color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
 }
 
 a {
@@ -61,11 +70,8 @@ ul {
 }
 .spdt-title {
   position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
 
   white-space: nowrap;
   clip-path: inset(100%);
