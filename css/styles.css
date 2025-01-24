@@ -55,6 +55,10 @@ ul {
   color: #404bbf;
 }
 
+.header-adress-link {
+  color: #434455;
+}
+
 .header-adress-link:hover,
 .header-adress-link:focus {
   color: #404bbf;
@@ -63,6 +67,7 @@ ul {
 .hero {
   background-color: #2e2f42;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -73,6 +78,7 @@ ul {
 }
 
 .hero-button {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -80,6 +86,12 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 .spdt-title {
   margin: -1px;
   border: 0;
